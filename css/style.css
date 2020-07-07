@@ -1,0 +1,158 @@
+
+/* Child So Precious Daycare Theme created by R Web Designs LLC 2019*/
+
+@import url('https://fonts.googleapis.com/css?family=Coiny|Quicksand:300,400,500,600,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow-x: hidden
+}
+
+body {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    font-size:2rem;
+}
+
+h2{
+    font-family: 'ZCOOL KuaiLe', cursive;    
+    font-size:3rem;
+}
+
+.accent{
+    font-family:'Coiny', cursive;  
+    color:#218838;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color:#fff;
+}
+header{
+
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/2kids.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.rounded{
+    box-shadow: 0 10px 12px rgb(0,0,0);
+    width:100%;
+    height:auto;
+    transform:scale(1.06);
+    transition:transform 0.5s;
+
+}
+.rounded:hover{
+    transform:scale(1.02);
+  
+}
+
+.menu-item{
+    font-family: 'ZCOOL KuaiLe', cursive;  
+    font-size:1.2rem;
+    letter-spacing:0.5rem;
+    color:#fff;
+    transition:color .5s;
+    font-weight:200;
+}
+
+.menu-item:hover{
+    color:#fff;
+}
+
+.banner-heading{
+    font-family: 'ZCOOL KuaiLe', cursive;    
+}
+
+.navbar{
+    padding:1rem;
+    background-color:#e5cc3c;
+}
+.navbar ,footer{
+    background-image:url(../img/border_horizontal.png),url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position:0px top, 0px bottom;
+}
+.underline{
+    width:150px;
+    border:5px outset  #d51c21;
+    margin:auto;
+}
+/*-- nav scrolling offset--*/
+.offset:before{
+    height:4rem;
+    margin-top:-4rem;
+    content:"";
+    display:block;
+  }
+.btn-danger{
+    color:#fff;
+    background-color:#d51c21;
+    border-color:#d51c21;
+}
+
+
+.btn-danger:hover{
+    background-color:#e7ce41;
+    border-color:#e7ce41;
+}
+/* ABOUT US SECTION */
+
+.lead{
+    line-height: 2rem;
+    letter-spacing:0.1rem;
+    text-align:justify;
+}
+@media (max-width: 576px) {
+    span.accent.display-1 {
+        font-size:2.5rem;
+    }
+    h2{
+      font-size:2.1rem;
+    }
+
+    .banner-heading{
+        font-size:2.3rem;
+    }
+ }
+
+/* SERVICE SECTION */
+section#service{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/testimonialbg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+
+/* MENU SECTION */
+
+
+.menu-section p{
+    font-size:1.1rem;
+}
+
+td{
+    font-size:1.2rem;
+}
+
+/* FOOTER SECTION */
+
+footer{
+background-color:#e5cc3c;   
+color:#fff;
+}
+
